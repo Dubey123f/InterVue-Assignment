@@ -1,0 +1,411 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intervue — Technical Interview Resources</title>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <!-- Sora font -->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Intervue logo" class="logo" />
+        <div class="sr-only">Intervue</div>
+      </div>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#" class="nav-link">Become an Interviewer</a>
+        <a href="#" class="nav-link">Features</a>
+        <a href="#" class="nav-link">Pricing</a>
+        <a href="#" class="nav-link">Docs</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button class="btn-outline">Login</button>
+        <button class="btn-primary">Signup</button>
+      </div>
+
+      <button class="burger" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#">Become an Interviewer</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Docs</a>
+      <div class="mobile-ctas">
+        <button class="btn-outline">Login</button>
+        <button class="btn-primary">Signup</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / SEARCH -->
+    <section class="hero container" id="top">
+      <h1 class="hero-title">Technical Interview Resources</h1>
+      <p class="sub">Find all the technical interview resources here</p>
+
+      <div class="search-wrap" role="search">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden><path fill="currentColor" d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15z"></path></svg>
+        <input id="searchInput" type="search" placeholder="Search for resource here" aria-label="Search resources">
+      </div>
+
+      <!-- GRID OF CARDS -->
+      <div class="card-grid" id="cards">
+        <!-- We'll include 12 cards matching screenshot -->
+        <!-- Card 1 -->
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag easy">Easy</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag medium">Medium</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag hard">Hard</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <!-- Duplicate to reach 12 (as in screenshot). You can replace content individually -->
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag easy">Easy</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag medium">Medium</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag hard">Hard</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag easy">Easy</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag medium">Medium</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag hard">Hard</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag easy">Easy</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag medium">Medium</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+
+        <article class="resource-card">
+          <div class="card-top">
+            <span class="tag hard">Hard</span>
+            <small class="category">DATA STRUCTURES &amp; ALGORITHMS</small>
+          </div>
+          <h3 class="card-title">Design a Free Food App</h3>
+          <p class="card-desc">We created this guide after speaking with our community of interviewers; this includes over 100 curated mock interviews...</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECURITY SECTION -->
+     
+
+   <section class="security container">
+  <div class="sec-inner">
+    <div class="sec-left">
+      <h2>Security is our top priority</h2>
+      <p class="muted">
+        Intervue secures startups to fortune 500 companies with enterprise-grade
+        security baked in by design
+      </p>
+
+      <div class="cards-row">
+        <div class="info-card">
+          <i class="fa-solid fa-shield-halved info-icon"></i>
+          <div>
+            <h4>Security</h4>
+            <p class="muted small">
+              Protecting your data at every layer across the Intervue stack.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-file-shield info-icon"></i>
+          <div>
+            <h4>Compliance</h4>
+            <p class="muted small">
+              Enterprise-grade compliance controls to adhere to industry standards.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-rocket info-icon"></i>
+          <div>
+            <h4>Intervue for Startups</h4>
+            <p class="muted small">
+              Scales with teams and startups to help interview at speed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-right">
+      <div class="testimonial">
+        <div class="video-shape">
+          <img
+            src="assets/video-thumbnail.png"
+            alt="Niket Gupta testimonial"
+            class="testimonial-video"
+          />
+          <div class="play-overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-text">
+          <p>
+            After interviewing candidates on Intervue, we were able to convert at
+            least 5% of people from our application base to hires.
+          </p>
+          <strong>Niket Gupta</strong><br />
+          <small class="muted">Group head of talent acquisition, Yubi</small>
+          <div><a href="#" class="link">See more customer stories →</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    <!-- EXPLORE MORE PRODUCTS -->
+    <section class="explore container">
+      <h2 class="section-title">Explore more products on intervue</h2>
+      <div class="explore-grid">
+        <div class="prod-card">
+          <img src="assets/ondemand.jpeg" alt="on demand" class="prod-thumb-img" />
+          <h4>On-demand</h4>
+          <p class="muted">Save 90% of engineering & recruitment bandwidth; outsource candidate interviews to us.</p>
+          <a class="link" href="#">Know more →</a>
+        </div>
+
+        <div class="prod-card">
+          <img src="assets/livein.png" alt="live interviews" class="prod-thumb-img" />
+          <h4>Live interviews</h4>
+          <p class="muted">Assess candidates in real-time with our live coding environment + integrated video calls.</p>
+          <a class="link" href="#">Know more →</a>
+        </div>
+
+        <div class="prod-card">
+          <img src="assets/prod-assess.jpeg" alt="assessments" class="prod-thumb-img" />
+          <h4>Assessments</h4>
+          <p class="muted">Share assessments across batches with multiple question types.</p>
+          <a class="link" href="#">Know more →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+
+<!-- 
+    <section class="faq">
+  <div class="faq-wrap">
+    <div class="faq-left">
+      <h2 class="section-title">FAQs</h2>
+      <p class="faq-intro">
+        Here are frequently asked questions to clear all your doubts.
+      </p>
+      <p class="still">
+        Still have doubts? <a href="#" class="link">Talk to our representative</a>
+      </p>
+    </div>
+
+    <div class="faq-right">
+      <div class="faq-item">
+        <button class="faq-q">What is your refund policy? <span class="plus">+</span></button>
+        <div class="faq-a">We offer a full refund within 7 days of purchase.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How can I contact support? <span class="plus">+</span></button>
+        <div class="faq-a">You can reach us via the contact form or live chat.</div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+ <section class="faq">
+  <div class="faq-wrap">
+    <div class="faq-left">
+      <h2 class="section-title">FAQs</h2>
+      <p class="faq-intro">
+        Here are frequently asked questions to clear all your doubts.
+      </p>
+      <p class="still">
+        Still have doubts? <a href="#" class="link">Talk to our representative</a>
+      </p>
+    </div>
+
+    <div class="faq-right">
+      <div class="faq-item">
+        <button class="faq-q">
+          How secure is my data on Intervue?
+          <span class="plus">+</span>
+        </button>
+        <div class="faq-a">
+          All your data is encrypted and stored on secure servers.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">
+          Can I use Intervue for free?
+          <span class="plus">+</span>
+        </button>
+        <div class="faq-a">
+          Yes, we offer a free plan with limited access.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+   <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <img src="assets/logo-footer.png" alt="Intervue footer logo" class="footer-logo-img" />
+      <p class="muted">Hire better &amp; faster</p>
+      <form class="newsletter" onsubmit="return false;">
+        <input type="email" placeholder="Enter your email address" aria-label="newsletter email">
+        <button class="arrow-btn" type="submit">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+
+    <div class="footer-links">
+      <div class="col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+        <h4>Resources</h4>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+        <a href="#">Docs</a>
+      </div>
+
+      <div class="col">
+        <h4>Product</h4>
+        <a href="#">On-demand</a>
+        <a href="#">Live interviews</a>
+        <a href="#">Assessments</a>
+      </div>
+
+      <div class="col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <small>© 2025 Intervue. Crafted by great minds.</small>
+    <div class="socials">
+      <a href="#" aria-label="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
