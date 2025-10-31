@@ -69,7 +69,7 @@ intervue-clone/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/intervue-clone.git
+   git clone https://github.com/Dubey123f/interVue-Assignment.git
    ```
    ```bash
    open index.html
