@@ -48,6 +48,7 @@ This project replicates the **modern design, animations, FAQ section, testimonia
 
 ---
 ## 📁 Folder Structure
+```bash
 intervue-clone/
 │
 ├── index.html # Main HTML page
@@ -59,6 +60,7 @@ intervue-clone/
 │ ├── thumbnail2.png
 │ └── ...
 └── README.md # Project documentation
+```
 ---
 
 ---
